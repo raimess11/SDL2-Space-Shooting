@@ -1,6 +1,6 @@
 # SDL2 Arcade Space Shooting Project
 ## Simple Retro Arcade Space Shooter
-A classic retro-style space shooter game built entirely from scratch as a learning project. This game was developed without any game engine, focusing on understanding the fundamentals of game development at a low level. All core systems — including collision detection, input handling, object movement, and rendering — were implemented manually using SDL2.
+A classic retro-style space shooter game built entirely from scratch as a learning project (at **Dec 2024**). This game was developed without any game engine, focusing on understanding the fundamentals of game development at a low level. All core systems — including collision detection, input handling, object movement, and rendering — were implemented manually using SDL2.
 
 ## 🔧 Built From Scratch
 This project emphasizes learning and implementing the essential building blocks of a 2D game:
