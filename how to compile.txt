@@ -1,0 +1,11 @@
+g++.exe -Wall -O2 -I"C:\Program Support\Development\SDL2-2.24.0\x86_64-w64-mingw32\include\SDL2" -c main.cpp -o main.o
+g++.exe -L"C:\Program Support\Development\SDL2-2.24.0\i686-w64-mingw32\lib" -o "Space Shooting.exe" obj\Release\main.o  -lmingw32 -lSDL2main -lSDL2 -s
+
+with out object file:
+g++ main.cpp -I"C:\Program Support\Development\SDL2-2.24.0\x86_64-w64-mingw32\include\SDL2" -L"C:\Program Support\Development\SDL2-2.24.0\x86_64-w64-mingw32\lib" -o main -lmingw32 -lSDL2main -lSDL2 -s
+
+to web <masih error>
+emss -LC:\Development\SDL2-2.24.0\i686-w64-mingw32\lib -o "try\web\Space Shooting.exe" try\main.o  -lmingw32 -lSDL2main -lSDL2 -s
+
+masih error but better:
+emcc -o main.wasm main.cpp -s TOTAL_MEMORY=320mb
